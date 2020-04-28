@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="{{ language }}">
+  <head>
+    <title>Caiado &amp; Filhos, Lda.</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="shortcut icon" href="{% static 'imgs/favicon.png' %}" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap">
+    <style>
+      {% postcss %}
+    </style>
+  </head>
+
+  <body class="font-body font-light text-base text-dark-gray bg-light-gray">
+    <header>
+      {% include 'navbar' %}
+    </header>
+    <section id="banner">
+      {% include 'banner', title:banner.title, description:banner.description %}
+    </section>
+    <main>
+      <section id="{{ navItems.about.id }}" class="pt-2 pb-1">
+        <div class="max-w-screen-xl mx-auto text-center px-col-gap-half">
+          <h2 class="text-xl text-red mb-1">{{ navItems.about.label }}</h2>
+          <p class="max-w-5/6 mx-auto font-normal">
+            {{ about }}
+          </p>
+        </div>
+      </section>
+      <section id="{{ navItems.services.id }}" class="text-center bg-light-gray pt-1 pb-1">
+        <h2 class="text-xl text-red mb-1">{{ navItems.services.label }}</h2>
+        {% include 'services' %}
+      </section>
+      <section
+        id="{{ navItems.portfolio.id }}"
+        class="text-center bg-dark-gray text-white pt-1 pb-1"
+      >
+        <div class="max-w-screen-xl mx-auto px-col-gap-half">
+          {% include 'portfolios' %}
+        </div>
+        <div class="lg:max-w-half mx-auto px-col-gap-half text-center"></div>
+        <button class="mt-1" type="button" data-page="2">{{ portfolios.loadMoreLabel }}</button>
+      </section>
+    </main>
+    <section id="{{ navItems.contacts.id }}" class="py-2 border-b-2 border-red px-col-gap-half">
+      <h2 class="text-xl text-red text-center mb-1">{{ navItems.contacts.label }}</h2>
+      {% include 'contacts', intro:contacts.intro formLabels:contacts.formLabels %}
+    </section>
+    <footer class="bg-dark-gray">
+      {% include 'footer', allRightsReserved:footer.allRightsReserved %}
+    </footer>
+    <script src="{% static '/index.js' %}"></script>
+  </body>
+</html>

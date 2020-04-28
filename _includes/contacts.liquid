@@ -1,0 +1,74 @@
+
+<div class="max-w-screen-xl px-col-gap-half mx-auto">
+  <p class="mb-1 text-center lg:max-w-half mx-auto px-col-gap font-normal">
+    {{ intro }}
+  </p>
+  <div class="flex flex-column lg:flex-row">
+    <form
+      action=""
+      class="p-1 bg-white text-sm flex flex-col w-full lg:w-half"
+      id="contact-form"
+    >
+      <label class="block text-black" for="contact-form-name">
+        {{ formLabels.name }}
+      </label>
+      <input
+        class="appearance-none mb-1 border-b-2 border-gray"
+        id="contact-form-name"
+        type="text"
+      />
+      <label class="text-black" for="contact-form-email">
+        {{ formLabels.email }}
+      </label>
+      <input
+        class="appearance-none mb-1 block border-b-2 border-gray"
+        id="contact-form-email"
+        type="email"
+      />
+      <label class="" for="contact-form-message">
+        {{ formLabels.message }}
+      </label>
+      <input
+        class="appearance-none mb-1 border-b-2 border-gray"
+        id="contact-form-message"
+        type="text"
+      />
+      <button class="text-bold border-red border-b-2 self-end mb-2">
+        {{ formLabels.send }}
+      </button>
+      <ul>
+        <li>
+          <address class="mb-1">
+            Zona Industrial, <br />
+            Lotes 182-184 - 8700-281, Olhão
+          </address>
+        </li>
+        <li>
+          <a href="tel:+351289703352">
+            <abbr class="text-red" title="telefone">
+              Tel.
+            </abbr>
+            +351 289 703 352
+          </a>
+        </li>
+        <li>
+          <a href="tel:+351289703352">
+            <abbr class="text-red" value="telephone">
+              Tel.
+            </abbr>
+            +351 289 703 352
+          </a>
+        </li>
+        <li>
+          <a href="tel:+351289703352">
+            <abbr class="text-red" value="telephone">
+              Tel.
+            </abbr>
+            +351 289 703 352
+          </a>
+        </li>
+      </ul>
+    </form>
+    <div id="map" class="lg:w-40px"></div>
+  </div>
+</div>

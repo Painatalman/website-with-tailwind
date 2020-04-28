@@ -1,0 +1,145 @@
+@import "glightbox/dist/css/glightbox.css";
+
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;
+
+.svg-logo__text {
+  transition: fill 250ms ease-in-out;
+  @apply fill-current;
+}
+
+#navbar {
+  @apply h-100px;
+}
+
+#navbar,
+#navbar.has-reached-main {
+  @apply transition-colors;
+  @apply transition;
+  @apply ease-in-out;
+  @apply duration-500;
+  @apply bg-white;
+  @apply text-black;
+  @apply fill-current;
+}
+
+#navbar.is-expanded-on-mobile {
+  @apply h-screen;
+}
+
+.navbar-link {
+  @apply opacity-0;
+  @apply transition-opacity;
+  @apply ease-in-out;
+  @apply duration-200;
+  @apply mx-col-gap-half;
+}
+
+.is-expanded-on-mobile .navbar-link {
+  @apply opacity-100;
+}
+
+@screen lg {
+  #navbar,
+  #navbar.is-expanded-on-mobile {
+    @apply bg-transparent;
+    @apply text-white;
+    @apply h-auto;
+  }
+
+  .navbar-link {
+    @apply mx-col-gap;
+    @apply opacity-100;
+  }
+}
+
+/* SHAME: time constraints */
+.navbar-link > a {
+  @apply border-b-2;
+  @apply border-transparent;
+  @apply transition-colors;
+  @apply ease-in-out;
+  @apply duration-500;
+}
+
+.navbar-link > a.is-active {
+  @apply border-red;
+  @apply font-normal;
+}
+
+.language-selector {
+  position: relative;
+
+  height: 0;
+  width: 100px;
+  padding-bottom: 100%;
+}
+
+.language-selector__button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.language-selector__options {
+  z-index: 1;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  padding: 0 8px;
+  margin-top: 12px;
+  border: 2px solid red;
+
+  @apply bg-white;
+  @apply text-gray;
+
+  display: none;
+}
+
+#language-selector.is-active .language-selector__options {
+  display: block;
+}
+
+.portfolio-filter {
+  @apply font-normal;
+  @apply border-b-2;
+  @apply border-transparent;
+  @apply relative;
+}
+
+.portfolio-filter.is-active {
+  @apply border-red;
+  @apply font-bold;
+}
+
+.portfolio-filter__subfilters {
+  z-index: 1;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  padding: 16px 8px;
+  margin-top: 12px;
+  border: 2px solid red;
+
+  @apply bg-white;
+  @apply text-gray;
+
+  display: none;
+}
+
+.portfolio-filter__subfilters.is-active {
+  display: block;
+}
+
+.portfolio[hidden] {
+  display: none;
+}

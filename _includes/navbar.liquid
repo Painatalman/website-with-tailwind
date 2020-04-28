@@ -1,0 +1,34 @@
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-10 text-white overflow-hidden lg:overflow-visible">
+  <ul
+    class="py-col-gap mx-auto w-full max-w-screen-xl px-col-gap-half flex justify-between justify-center items-center flex-col lg:flex-row h-full"
+  >
+    <li class="w-full lg:w-auto lg:mr-auto flex justify-between">
+      {% include 'logo-header' %}
+      {% include 'hamburger-menu-button' %}
+    </li>
+    {% include 'navbar-item', item: navItems.about %}
+    {% include 'navbar-item', item: navItems.services %}
+    {% include 'navbar-item', item: navItems.portfolio %}
+    {% include 'navbar-item', item: navItems.contacts %}
+    <li class="lg:ml-1 ml-col-gap-half relative" id="language-selector">
+      <button
+        type="button"
+        id="language-selector-button"
+        class="transform relative block pb-full w-40px border-2 border-red transform rotate-45"
+      >
+        <div
+          class="transform -rotate-45 absolute language-selector__text h-0 inset-0 text-center flex justify-center items-center h-full"
+        >
+          {{ language }}
+        </div>
+      </button>
+      <ul class="language-selector__options">
+        {% for language in languageLinks %}
+          <li class="language-selector__link">
+            <a href="{{ language.url }}">{{ language.label }}</a>
+          </li>
+        {% endfor %}  
+      </ul>
+    </li>
+  </ul>
+</nav>

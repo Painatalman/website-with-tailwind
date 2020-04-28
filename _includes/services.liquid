@@ -1,0 +1,17 @@
+<ul class="md:max-w-2/3 px-col-gap-half grid gap-col-gap mx-auto text-center grid-cols-2 md:grid-cols-4">    
+  {% for this in services %}
+    <li class="relative pb-3/2 h-0">
+      <img
+        src="https://www.dropbox.com/s/shgj34xb6pm30nf/icon-fundo_servico.png?raw=1"
+        alt=""
+        class="absolute py-1/4 inset-0 w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 flex items-center">
+        <div class="w-full text-center font-bold uppercase leading-none">
+          {{ this }}
+        </div>
+      </div>
+      
+    </li>
+  {% endfor %}
+</ul>

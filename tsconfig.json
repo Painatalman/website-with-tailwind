@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es6",
+    "allowJs": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "typeRoots": ["src/types", "src/_declarations", "node_modules/@types"]
+  },
+  "files": ["src/index.ts"]
+}
