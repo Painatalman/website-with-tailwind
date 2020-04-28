@@ -1,0 +1,1697 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Caiado &amp; Filhos, Lda.</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="shortcut icon" href="/website-with-tailwind/imgs/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap">
+    <style>
+      /* top: 0;
+        left: 0;
+        right: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); */
+
+/*
+ * Description for mobiles
+ * something like facebook does the description
+ * for the photos
+*/
+
+/*Skin */
+
+/* .gprev,
+    .gnext,
+    .gclose{
+        border: none;
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGMAAAA2CAYAAADTeCfRAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5NThDMEMwNzg3NjgxMUU1QUM2MUYwRDYwNTNEN0UxMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5NThDMEMwODg3NjgxMUU1QUM2MUYwRDYwNTNEN0UxMSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjk1OEMwQzA1ODc2ODExRTVBQzYxRjBENjA1M0Q3RTExIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjk1OEMwQzA2ODc2ODExRTVBQzYxRjBENjA1M0Q3RTExIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+htE8KwAAA9BJREFUeNrsm1tIFGEYhndDI4OSLgqkMrKjBXYwCjt40QkpL4pMyoqMgigIgm6iiy66KSwpj2vrucKgpINRRhYRooQkWYEWUkaWERokhVQXbu/QOyDhpjPzz3H/Dx7W1f2+753/3X9mnPnHHwqFfDKcEWPkEEgzZEgzpBkybDbjHLhvIP8GKLNhPILgksEaFaDKKWacAMdAn4Ean8F+kGOxGXFgDyjSmZ8L9oFpurKVU1uBnAr9jZMCah1hrQLBGkciyL7FGvNymXdZb2+RG3GGYo4LrHmINS9abEiZRkMu8PNXjPQVJV4Vc9SEgclm7WqLDSkd5RdBiBGizCihmMMmDkwWe1yz2JBy9g2E+ft5o7smkWZUUMwBCwYmg71u2nQMCZhphFEzaihmt4UDk86e9TYZUsj3OaKNMGJGHcVkWjwoChvZ+7HFfQvZt42vpaJ76Em6SzHbbDBCZR01NFvct519u8yorzXhEcWk2WiESiq1tFrUT901veZrnp1mNFHEWgcYoZJMTe0m98ljn3K+z+f7oB1mtLD5agcZoZJEbZ3Ab0J9deCrwpzSB6004xWbLnegESqJ1NgNok04aFeF+XtA5MF8pA90stkiBxuhkkCtvSBGQL2iEYz415Bys8yIAu/ZZKELjFCJp+Z+EGugTgHrVGq8ClEm2oxZ4CUYAHNcZIRKHOjj6ed8A8eISo15xUaPIcP9spFFk11ohMp0bkOHxrxa5lXo7Ksack9Pvn+YpTqLwS0QDZbxRo+bYgJoBZPAZtCiIVe5QzceZBroXwP8YKfWRH+YdVOx4AOYCOJBt0uMUAz4BGLAVNDjhXvg/bwF2UdTElywLVOoN5o/97hsRv/3HvgAv10fwVuQ6ODtUO45f6HmyaDXi6tDfoMZNKMdJDlwG2ZyN/qVs/mbl5fqDILZoAO8AMkO0j8XvONJhjKLf0TKuqkF4Dl4BlY6QLty1vcGdHE39SvSFrEtBc2gCWywUfcKfjE6eHIxGKkrCleBRvAApNmgOQU8BW2crRG/vDMV1JN0C/WmcmYqZizxeSyMLO/cBG6DOyDDAq3rwRPOyhSfB8PoWtst4DrJMlGnYnwDeMjZ4c0QdGGumhfIsk246LeVtetcfOFyVEQJ8nQv+AkqwThQIqjuDnAV1ILtPo9HlMBaB/kfewCMBfkG6ylL85VnJZSroLt8kRAmTLezOpfUD+W0WQvFnIzfpEePlaeO5oE1OvOVp56+R8KuaWiYZYYMG05tZUgzpBkypBnSDBnSDGmGDGmGDGmGNEOGNEOaIUOa4YH4I8AAM9m8BFEzyDIAAAAASUVORK5CYII=');
+    } */
+
+/*CSS Animations*/
+
+@keyframes lightboxLoader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes gfadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes gfadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes gslideInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-60%, 0, 0);
+    transform: translate3d(-60%, 0, 0);
+  }
+  to {
+    visibility: visible;
+    -webkit-transform: translate3d( 0, 0, 0);
+    transform: translate3d( 0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes gslideOutLeft {
+  from {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    -webkit-transform: translate3d(-60%, 0, 0);
+    transform: translate3d(-60%, 0, 0);
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes gslideInRight {
+  from {
+    opacity: 0;
+    visibility: visible;
+    -webkit-transform: translate3d(60%, 0, 0);
+    transform: translate3d(60%, 0, 0);
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes gslideOutRight {
+  from {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    -webkit-transform: translate3d(60%, 0, 0);
+    transform: translate3d(60%, 0, 0);
+    opacity: 0;
+  }
+}
+
+@keyframes gzoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes gzoomOut {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+/**
+ * Manually forked from SUIT CSS Base: https://github.com/suitcss/base
+ * A thin layer on top of normalize.css that provides a starting point more
+ * suitable for web applications.
+ */
+
+/**
+ * Removes the default spacing and border for appropriate elements.
+ */
+
+
+h2,
+p {
+  margin: 0;
+}
+
+button {
+  background-color: transparent;
+  background-image: none;
+  padding: 0;
+}
+
+/**
+ * Work around a Firefox/IE bug where the transparent `button` background
+ * results in a loss of the default `button` focus styles.
+ */
+
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Tailwind custom reset styles
+ */
+
+/**
+ * 1. Use the user's configured `sans` font-family (with Tailwind's default
+ *    sans-serif font stack as a fallback) as a sane default.
+ * 2. Use Tailwind's default "normal" line-height so the user isn't forced
+ *    to override it to ensure consistency even when using the default theme.
+ */
+
+html {
+  font-family: Montserrat, sans-serif; /* 1 */
+  line-height: 1.5; /* 2 */
+}
+
+/**
+ * 1. Prevent padding and border from affecting element width.
+ *
+ *    We used to set this in the html element and inherit from
+ *    the parent element for everything else. This caused issues
+ *    in shadow-dom-enhanced elements like <details> where the content
+ *    is wrapped by a div with box-sizing set to `content-box`.
+ *
+ *    https://github.com/mozdevs/cssremedy/issues/4
+ *
+ *
+ * 2. Allow adding a border to an element by just adding a border-width.
+ *
+ *    By default, the way the browser specifies that an element should have no
+ *    border is by setting it's border-style to `none` in the user-agent
+ *    stylesheet.
+ *
+ *    In order to easily add borders to elements by just setting the `border-width`
+ *    property, we change the default border-style for all elements to `solid`, and
+ *    use border-width to hide them instead. This way our `border` utilities only
+ *    need to set the `border-width` property instead of the entire `border`
+ *    shorthand, making our border utilities much more straightforward to compose.
+ *
+ *    https://github.com/tailwindcss/tailwindcss/pull/116
+ */
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: currentColor; /* 2 */
+}
+
+/*
+ * Ensure horizontal rules are visible by default
+ */
+
+/**
+ * Undo the `border-style: none` reset that Normalize applies to images so that
+ * our `border-{width}` utilities have the expected effect.
+ *
+ * The Normalize reset is unnecessary for us since we default the border-width
+ * to 0 on all elements.
+ *
+ * https://github.com/tailwindcss/tailwindcss/issues/362
+ */
+
+img {
+  border-style: solid;
+}
+
+input::-webkit-input-placeholder {
+  color: #a0aec0;
+}
+
+input::-moz-placeholder {
+  color: #a0aec0;
+}
+
+input:-ms-input-placeholder {
+  color: #a0aec0;
+}
+
+input::-ms-input-placeholder {
+  color: #a0aec0;
+}
+
+input::placeholder {
+  color: #a0aec0;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+h2 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/**
+ * Reset links to optimize for opt-in styling instead of
+ * opt-out.
+ */
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/**
+ * Reset form element properties that are easy to forget to
+ * style explicitly so you don't inadvertently introduce
+ * styles that deviate from your design system. These styles
+ * supplement a partial reset that is already applied by
+ * normalize.css.
+ */
+
+button,
+input {
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+}
+
+/**
+ * Use the configured 'mono' font family for elements that
+ * are expected to be rendered with a monospace font, falling
+ * back to the system monospace stack if there is no configured
+ * 'mono' font family.
+ */
+
+/**
+ * Make replaced elements `display: block` by default as that's
+ * the behavior you want almost all of the time. Inspired by
+ * CSS Remedy, with `svg` added as well.
+ *
+ * https://github.com/mozdevs/cssremedy/issues/14
+ */
+
+img,
+svg {
+  display: block;
+  vertical-align: middle;
+}
+
+/**
+ * Constrain images and videos to the parent width and preserve
+ * their instrinsic aspect ratio.
+ *
+ * https://github.com/mozdevs/cssremedy/issues/14
+ */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*tailwind start components */
+
+/*tailwind end components */
+
+.appearance-none{
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.bg-white{
+  --bg-opacity: 1;
+  background-color: white;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+}
+
+.bg-light-gray{
+  --bg-opacity: 1;
+  background-color: #e6e6e6;
+  background-color: rgba(230, 230, 230, var(--bg-opacity));
+}
+
+.bg-dark-gray{
+  --bg-opacity: 1;
+  background-color: #3c3c3c;
+  background-color: rgba(60, 60, 60, var(--bg-opacity));
+}
+
+.bg-black{
+  --bg-opacity: 1;
+  background-color: black;
+  background-color: rgba(0, 0, 0, var(--bg-opacity));
+}
+
+.border-gray{
+  --border-opacity: 1;
+  border-color: #7c7c7c;
+  border-color: rgba(124, 124, 124, var(--border-opacity));
+}
+
+.border-red{
+  --border-opacity: 1;
+  border-color: #db0c00;
+  border-color: rgba(219, 12, 0, var(--border-opacity));
+}
+
+.border-2{
+  border-width: 2px;
+}
+
+.border-b-2{
+  border-bottom-width: 2px;
+}
+
+.block{
+  display: block;
+}
+
+.flex{
+  display: flex;
+}
+
+.grid{
+  display: grid;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.items-stretch{
+  align-items: stretch;
+}
+
+.self-end{
+  align-self: flex-end;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.justify-around{
+  justify-content: space-around;
+}
+
+.font-light{
+  font-weight: 300;
+}
+
+.font-normal{
+  font-weight: 400;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.h-0{
+  height: 0;
+}
+
+.h-40px{
+  height: 40px;
+}
+
+.h-full{
+  height: 100%;
+}
+
+.h-screen{
+  height: 100vh;
+}
+
+.text-sm{
+  font-size: 1rem;
+}
+
+.text-base{
+  font-size: 1.25rem;
+}
+
+.text-lg{
+  font-size: 1.875rem;
+}
+
+.text-xl{
+  font-size: 2.75rem;
+}
+
+.leading-none{
+  line-height: 1;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mt-1{
+  margin-top: 3.75rem;
+}
+
+.mr-1{
+  margin-right: 3.75rem;
+}
+
+.mb-1{
+  margin-bottom: 3.75rem;
+}
+
+.mb-2{
+  margin-bottom: 7.5rem;
+}
+
+.ml-col-gap-half{
+  margin-left: 15px;
+}
+
+.max-w-screen-xl{
+  max-width: 1200px;
+}
+
+.max-w-2\/3{
+  max-width: calc(100% * 2 / 3);
+}
+
+.max-w-5\/6{
+  max-width: calc(100% * 5 / 6);
+}
+
+.max-w-logo-size-header{
+  max-width: 150px;
+}
+
+.max-w-logo-size-footer{
+  max-width: 100px;
+}
+
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.opacity-50{
+  opacity: 0.5;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.p-1{
+  padding: 3.75rem;
+}
+
+.py-1{
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+
+.py-2{
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.py-col-gap{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.px-col-gap{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.px-col-gap-half{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.py-1\/4{
+  padding-top: 25%;
+  padding-bottom: 25%;
+}
+
+.pt-1{
+  padding-top: 3.75rem;
+}
+
+.pb-1{
+  padding-bottom: 3.75rem;
+}
+
+.pt-2{
+  padding-top: 7.5rem;
+}
+
+.pb-full{
+  padding-bottom: 100%;
+}
+
+.pb-3\/2{
+  padding-bottom: 150%;
+}
+
+.static{
+  position: static;
+}
+
+.fixed{
+  position: fixed;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.inset-0{
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.top-0{
+  top: 0;
+}
+
+.right-0{
+  right: 0;
+}
+
+.bottom-0{
+  bottom: 0;
+}
+
+.left-0{
+  left: 0;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-white{
+  --text-opacity: 1;
+  color: white;
+  color: rgba(255, 255, 255, var(--text-opacity));
+}
+
+.text-dark-gray{
+  --text-opacity: 1;
+  color: #3c3c3c;
+  color: rgba(60, 60, 60, var(--text-opacity));
+}
+
+.text-red{
+  --text-opacity: 1;
+  color: #db0c00;
+  color: rgba(219, 12, 0, var(--text-opacity));
+}
+
+.text-black{
+  --text-opacity: 1;
+  color: black;
+  color: rgba(0, 0, 0, var(--text-opacity));
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.w-40px{
+  width: 40px;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.z-10{
+  z-index: 10;
+}
+
+.gap-px{
+  grid-gap: 1px;
+  gap: 1px;
+}
+
+.gap-col-gap{
+  grid-gap: 30px;
+  gap: 30px;
+}
+
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-rows-2{
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.transform{
+  --transform-translate-x: 0;
+  --transform-translate-y: 0;
+  --transform-rotate: 0;
+  --transform-skew-x: 0;
+  --transform-skew-y: 0;
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+  transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+}
+
+.rotate-45{
+  --transform-rotate: 45deg;
+}
+
+.-rotate-45{
+  --transform-rotate: -45deg;
+}
+
+.svg-logo__text {
+  transition: fill 250ms ease-in-out;
+  fill: currentColor;
+}
+
+#navbar {
+  height: 100px;
+}
+
+#navbar,
+#navbar.has-reached-main {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+  --bg-opacity: 1;
+  background-color: white;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  --text-opacity: 1;
+  color: black;
+  color: rgba(0, 0, 0, var(--text-opacity));
+  fill: currentColor;
+}
+
+#navbar.is-expanded-on-mobile {
+  height: 100vh;
+}
+
+.navbar-link {
+  opacity: 0;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.is-expanded-on-mobile .navbar-link {
+  opacity: 1;
+}
+
+@media (min-width: 992px) {
+  #navbar,
+  #navbar.is-expanded-on-mobile {
+    background-color: transparent;
+    --text-opacity: 1;
+    color: white;
+    color: rgba(255, 255, 255, var(--text-opacity));
+    height: auto;
+  }
+
+  .navbar-link {
+    margin-left: 30px;
+    margin-right: 30px;
+    opacity: 1;
+  }
+}
+
+/* SHAME: time constraints */
+
+.navbar-link > a {
+  border-bottom-width: 2px;
+  border-color: transparent;
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+}
+
+.navbar-link > a.is-active {
+  --border-opacity: 1;
+  border-color: #db0c00;
+  border-color: rgba(219, 12, 0, var(--border-opacity));
+  font-weight: 400;
+}
+
+.language-selector {
+  position: relative;
+  height: 0;
+  width: 100px;
+  padding-bottom: 100%;
+}
+
+.language-selector__options {
+  z-index: 1;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 8px;
+  margin-top: 12px;
+  border: 2px solid red;
+  --bg-opacity: 1;
+  background-color: white;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #7c7c7c;
+  color: rgba(124, 124, 124, var(--text-opacity));
+  display: none;
+}
+
+#language-selector.is-active .language-selector__options {
+  display: block;
+}
+
+.portfolio-filter {
+  font-weight: 400;
+  border-bottom-width: 2px;
+  border-color: transparent;
+  position: relative;
+}
+
+.portfolio-filter.is-active {
+  --border-opacity: 1;
+  border-color: #db0c00;
+  border-color: rgba(219, 12, 0, var(--border-opacity));
+  font-weight: 700;
+}
+
+.portfolio-filter__subfilters {
+  z-index: 1;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 16px 8px;
+  margin-top: 12px;
+  border: 2px solid red;
+  --bg-opacity: 1;
+  background-color: white;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #7c7c7c;
+  color: rgba(124, 124, 124, var(--text-opacity));
+  display: none;
+}
+
+.portfolio-filter__subfilters.is-active {
+  display: block;
+}
+
+@media (min-width: 768px){
+  .md\:text-lg{
+    font-size: 1.875rem;
+  }
+
+  .md\:text-xl{
+    font-size: 2.75rem;
+  }
+
+  .md\:max-w-7\/12{
+    max-width: calc(100% * 7 / 12);
+  }
+
+  .md\:max-w-2\/3{
+    max-width: calc(100% * 2 / 3);
+  }
+
+  .md\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 992px){
+  .lg\:hidden{
+    display: none;
+  }
+
+  .lg\:flex-row{
+    flex-direction: row;
+  }
+
+  .lg\:ml-1{
+    margin-left: 3.75rem;
+  }
+
+  .lg\:mr-auto{
+    margin-right: auto;
+  }
+
+  .lg\:max-w-half{
+    max-width: 50%;
+  }
+
+  .lg\:overflow-visible{
+    overflow: visible;
+  }
+
+  .lg\:w-auto{
+    width: auto;
+  }
+
+  .lg\:w-40px{
+    width: 40px;
+  }
+
+  .lg\:w-half{
+    width: 50%;
+  }
+}
+
+    </style>
+  </head>
+
+  <body class="font-body font-light text-base text-dark-gray bg-light-gray">
+    <header>
+      <nav id="navbar" class="fixed top-0 left-0 right-0 z-10 text-white overflow-hidden lg:overflow-visible">
+  <ul
+    class="py-col-gap mx-auto w-full max-w-screen-xl px-col-gap-half flex justify-between justify-center items-center flex-col lg:flex-row h-full"
+  >
+    <li class="w-full lg:w-auto lg:mr-auto flex justify-between">
+      <?xml version="1.0" encoding="utf-8"?>
+<svg x="0px" y="0px" viewBox="0 0 196 19" class="svg-logo max-w-logo-size-header w-full">
+	<style type="text/css">
+		.svg-logo__ampersand{fill-rule:evenodd;clip-rule:evenodd;fill:#DB330D;}
+	</style>
+	<path class="svg-logo__ampersand" d="M94.68,13.49c0-0.48,0.07-0.94,0.22-1.37c0.14-0.43,0.36-0.84,0.64-1.22c0.28-0.38,0.64-0.75,1.06-1.09
+		c0.42-0.35,0.91-0.68,1.47-1.01c-0.31-0.4-0.58-0.78-0.81-1.13c-0.23-0.35-0.42-0.68-0.57-1.01c-0.15-0.32-0.27-0.63-0.34-0.92
+		c-0.08-0.29-0.11-0.58-0.11-0.87c0-0.61,0.11-1.18,0.32-1.71c0.22-0.53,0.56-1,1.02-1.39c0.46-0.39,1.04-0.7,1.75-0.93
+		c0.71-0.23,1.57-0.34,2.56-0.34c0.91,0,1.7,0.08,2.36,0.26c0.66,0.17,1.2,0.42,1.63,0.74c0.42,0.32,0.74,0.71,0.95,1.17
+		c0.21,0.47,0.31,0.99,0.31,1.57c0,0.52-0.09,1-0.27,1.45c-0.18,0.44-0.45,0.86-0.81,1.26c-0.36,0.4-0.81,0.78-1.35,1.15
+		c-0.54,0.37-1.17,0.74-1.89,1.12c0.24,0.27,0.5,0.55,0.79,0.85c0.29,0.3,0.59,0.6,0.9,0.9c0.31,0.3,0.62,0.6,0.93,0.89
+		c0.31,0.3,0.62,0.57,0.91,0.82c0.12-0.17,0.22-0.37,0.31-0.6c0.09-0.23,0.17-0.46,0.24-0.72c0.06-0.25,0.12-0.51,0.15-0.77
+		c0.04-0.26,0.06-0.52,0.06-0.77l0-0.4c0-0.09,0.02-0.18,0.05-0.24c0.04-0.07,0.11-0.13,0.21-0.17c0.11-0.04,0.27-0.08,0.47-0.1
+		c0.2-0.02,0.47-0.04,0.79-0.04c0.3,0,0.56,0.01,0.76,0.02c0.2,0.01,0.36,0.04,0.48,0.08c0.12,0.04,0.2,0.1,0.24,0.17
+		c0.05,0.08,0.08,0.17,0.08,0.28l0,0.42c0,0.42-0.03,0.84-0.09,1.26c-0.06,0.43-0.15,0.84-0.27,1.24
+		c-0.12,0.4-0.26,0.79-0.44,1.16c-0.17,0.37-0.36,0.71-0.57,1.04c0.3,0.23,0.56,0.43,0.79,0.59c0.22,0.16,0.41,0.28,0.57,0.37
+		c0.16,0.09,0.28,0.16,0.39,0.19c0.11,0.04,0.19,0.05,0.26,0.05c0.1,0,0.19,0,0.27,0c0.08,0,0.15,0.03,0.2,0.09
+		c0.05,0.06,0.09,0.17,0.12,0.32c0.03,0.16,0.04,0.39,0.04,0.69c0,0.32-0.01,0.57-0.02,0.76c-0.01,0.18-0.04,0.32-0.06,0.4
+		c-0.03,0.09-0.08,0.16-0.16,0.21c-0.07,0.06-0.2,0.11-0.37,0.16c-0.17,0.05-0.38,0.08-0.63,0.08c-0.19,0-0.39-0.03-0.59-0.08
+		c-0.2-0.04-0.44-0.14-0.71-0.27c-0.27-0.13-0.58-0.31-0.94-0.53c-0.36-0.22-0.76-0.51-1.24-0.85c-0.41,0.28-0.83,0.53-1.26,0.75
+		c-0.44,0.22-0.89,0.41-1.36,0.56c-0.48,0.15-0.96,0.26-1.47,0.34c-0.5,0.08-1.04,0.12-1.61,0.12c-0.56,0-1.12-0.04-1.65-0.13
+		c-0.54-0.08-1.04-0.22-1.52-0.39c-0.48-0.18-0.91-0.4-1.3-0.67c-0.39-0.27-0.72-0.59-1-0.96c-0.28-0.37-0.49-0.79-0.65-1.27
+		C94.76,14.59,94.68,14.07,94.68,13.49L94.68,13.49z M99.67,4.7c0,0.18,0.03,0.37,0.09,0.56c0.06,0.2,0.14,0.4,0.25,0.61
+		c0.11,0.21,0.24,0.44,0.41,0.68c0.16,0.24,0.35,0.5,0.56,0.78c0.51-0.28,0.94-0.53,1.28-0.77c0.34-0.24,0.62-0.46,0.83-0.68
+		c0.21-0.22,0.36-0.44,0.44-0.66c0.09-0.22,0.13-0.45,0.13-0.68c0-0.21-0.04-0.4-0.12-0.59c-0.08-0.18-0.2-0.34-0.36-0.48
+		c-0.16-0.13-0.37-0.24-0.61-0.32c-0.24-0.08-0.53-0.12-0.86-0.12c-0.36,0-0.68,0.04-0.93,0.12c-0.26,0.08-0.47,0.2-0.63,0.35
+		c-0.16,0.15-0.29,0.33-0.36,0.53C99.71,4.25,99.67,4.47,99.67,4.7L99.67,4.7z M98.22,13.31c0,0.37,0.07,0.72,0.21,1.03
+		c0.14,0.31,0.34,0.58,0.6,0.8c0.26,0.23,0.58,0.4,0.97,0.53c0.39,0.12,0.83,0.19,1.33,0.19c0.26,0,0.52-0.03,0.78-0.08
+		c0.25-0.04,0.51-0.11,0.76-0.19c0.24-0.08,0.48-0.18,0.7-0.3c0.22-0.12,0.43-0.24,0.62-0.38c-0.39-0.32-0.78-0.64-1.18-1
+		c-0.4-0.36-0.78-0.71-1.16-1.06c-0.37-0.36-0.73-0.71-1.07-1.06c-0.34-0.35-0.65-0.68-0.92-1c-0.3,0.19-0.56,0.39-0.76,0.59
+		c-0.2,0.2-0.37,0.41-0.5,0.62c-0.13,0.21-0.23,0.42-0.28,0.64C98.25,12.86,98.22,13.09,98.22,13.31z"/>
+	<path class="svg-logo__text" d="M12.58,15.67c0,0.22,0,0.4-0.02,0.55c-0.01,0.15-0.04,0.28-0.06,0.39c-0.03,0.11-0.06,0.2-0.11,0.28
+		c-0.04,0.08-0.11,0.17-0.21,0.27c-0.09,0.1-0.28,0.23-0.55,0.39c-0.28,0.16-0.61,0.31-1,0.45c-0.4,0.14-0.84,0.26-1.36,0.36
+		c-0.51,0.1-1.05,0.15-1.64,0.15c-1.16,0-2.2-0.18-3.12-0.54c-0.93-0.35-1.72-0.88-2.37-1.59c-0.65-0.71-1.15-1.59-1.5-2.65
+		c-0.35-1.06-0.53-2.29-0.53-3.7c0-1.43,0.19-2.7,0.57-3.81c0.38-1.11,0.91-2.04,1.6-2.8C2.97,2.65,3.8,2.08,4.75,1.69
+		C5.71,1.3,6.77,1.1,7.92,1.1c0.47,0,0.92,0.04,1.36,0.12c0.44,0.08,0.84,0.18,1.2,0.31c0.37,0.12,0.7,0.27,1,0.44
+		c0.29,0.16,0.5,0.31,0.62,0.42c0.12,0.12,0.2,0.21,0.24,0.29c0.04,0.08,0.08,0.18,0.11,0.3c0.03,0.12,0.04,0.27,0.06,0.43
+		c0.01,0.16,0.02,0.37,0.02,0.61c0,0.26-0.01,0.48-0.02,0.66c-0.02,0.18-0.05,0.33-0.09,0.44c-0.04,0.11-0.09,0.2-0.16,0.24
+		c-0.06,0.05-0.13,0.08-0.21,0.08c-0.13,0-0.29-0.08-0.49-0.23c-0.2-0.15-0.46-0.32-0.78-0.51c-0.32-0.19-0.69-0.36-1.13-0.51
+		C9.2,4.06,8.68,3.98,8.07,3.98c-0.67,0-1.26,0.14-1.79,0.41C5.75,4.67,5.31,5.06,4.94,5.56C4.57,6.07,4.29,6.68,4.1,7.4
+		C3.91,8.13,3.81,8.94,3.81,9.84c0,0.99,0.1,1.85,0.31,2.57c0.2,0.72,0.5,1.32,0.88,1.79c0.38,0.47,0.83,0.82,1.36,1.05
+		c0.53,0.23,1.14,0.34,1.8,0.34c0.61,0,1.13-0.07,1.57-0.21c0.44-0.14,0.83-0.3,1.14-0.48c0.32-0.17,0.58-0.33,0.78-0.47
+		c0.2-0.14,0.36-0.2,0.48-0.2c0.08,0,0.16,0.01,0.2,0.05c0.05,0.04,0.1,0.11,0.13,0.21c0.04,0.11,0.06,0.25,0.08,0.44
+		C12.57,15.11,12.58,15.36,12.58,15.67L12.58,15.67z M28.84,16.94L23.63,2.01c-0.05-0.17-0.12-0.3-0.19-0.39
+		c-0.07-0.1-0.2-0.17-0.36-0.22c-0.17-0.04-0.4-0.08-0.71-0.09c-0.31-0.01-0.72-0.02-1.23-0.02c-0.44,0-0.8,0.01-1.07,0.02
+		c-0.27,0.01-0.48,0.04-0.63,0.09c-0.15,0.05-0.26,0.12-0.33,0.21c-0.07,0.09-0.13,0.21-0.18,0.36l-5.19,14.95
+		c-0.1,0.3-0.17,0.55-0.2,0.73c-0.03,0.18,0,0.32,0.09,0.42c0.08,0.1,0.24,0.16,0.47,0.19c0.23,0.03,0.54,0.04,0.94,0.04
+		c0.37,0,0.68-0.01,0.91-0.03c0.23-0.02,0.41-0.05,0.53-0.1c0.12-0.05,0.22-0.12,0.27-0.2c0.06-0.08,0.1-0.19,0.14-0.31l1.07-3.29
+		l6.33,0l1.13,3.38c0.04,0.12,0.08,0.2,0.13,0.28c0.05,0.07,0.15,0.12,0.28,0.16c0.13,0.04,0.32,0.06,0.56,0.08
+		c0.25,0.01,0.6,0.02,1.04,0.02c0.43,0,0.76-0.01,1-0.04c0.24-0.02,0.41-0.08,0.51-0.17c0.1-0.09,0.13-0.23,0.11-0.41
+		C29.01,17.5,28.94,17.25,28.84,16.94L28.84,16.94z M21.1,4.59l2.38,7.16l-4.78,0l2.38-7.16L21.1,4.59L21.1,4.59z M34.64,17.75
+		c0,0.08-0.03,0.16-0.09,0.23c-0.05,0.07-0.15,0.13-0.28,0.17c-0.13,0.04-0.3,0.08-0.52,0.11c-0.22,0.03-0.49,0.04-0.83,0.04
+		c-0.33,0-0.6-0.01-0.83-0.04c-0.22-0.03-0.4-0.06-0.53-0.11c-0.13-0.04-0.22-0.1-0.28-0.17c-0.06-0.07-0.08-0.15-0.08-0.23
+		L31.19,1.84c0-0.08,0.03-0.16,0.08-0.23c0.06-0.07,0.15-0.13,0.29-0.17c0.13-0.04,0.31-0.08,0.52-0.11
+		c0.22-0.03,0.49-0.04,0.82-0.04c0.34,0,0.61,0.01,0.83,0.04s0.39,0.06,0.52,0.11c0.13,0.04,0.23,0.1,0.28,0.17
+		c0.06,0.07,0.09,0.15,0.09,0.23L34.64,17.75L34.64,17.75z M52.11,16.93L46.9,2c-0.05-0.17-0.12-0.3-0.19-0.39
+		c-0.07-0.1-0.2-0.17-0.36-0.22c-0.17-0.04-0.4-0.08-0.71-0.09c-0.31-0.01-0.72-0.02-1.23-0.02c-0.44,0-0.8,0.01-1.07,0.02
+		c-0.27,0.01-0.48,0.04-0.63,0.09c-0.15,0.05-0.26,0.12-0.33,0.21c-0.07,0.09-0.13,0.21-0.18,0.36l-5.19,14.95
+		c-0.1,0.3-0.17,0.55-0.2,0.73c-0.03,0.18,0,0.32,0.09,0.42c0.08,0.1,0.24,0.16,0.47,0.19c0.23,0.03,0.54,0.04,0.94,0.04
+		c0.37,0,0.68-0.01,0.91-0.03c0.23-0.02,0.41-0.05,0.53-0.1c0.12-0.05,0.22-0.12,0.27-0.2c0.06-0.08,0.1-0.19,0.14-0.31l1.07-3.29
+		l6.33,0l1.13,3.38c0.04,0.12,0.08,0.2,0.13,0.28c0.05,0.07,0.15,0.12,0.28,0.16c0.13,0.04,0.32,0.06,0.56,0.08
+		c0.25,0.01,0.6,0.02,1.04,0.02c0.43,0,0.76-0.01,1-0.04c0.24-0.02,0.41-0.08,0.51-0.17c0.1-0.09,0.13-0.23,0.11-0.41
+		C52.28,17.49,52.21,17.24,52.11,16.93L52.11,16.93z M44.37,4.58l2.38,7.16l-4.78,0l2.38-7.16L44.37,4.58L44.37,4.58z M68.46,9.53
+		c0,1.54-0.2,2.87-0.61,3.96c-0.4,1.1-0.98,2-1.74,2.69c-0.76,0.69-1.67,1.21-2.75,1.53c-1.08,0.32-2.37,0.49-3.86,0.49l-4.02,0
+		c-0.29,0-0.53-0.08-0.72-0.25c-0.2-0.17-0.29-0.44-0.29-0.83L54.46,2.44c0-0.38,0.1-0.66,0.29-0.83c0.2-0.17,0.44-0.25,0.72-0.25
+		l4.32,0c1.5,0,2.78,0.18,3.82,0.53c1.04,0.35,1.93,0.87,2.64,1.56C66.98,4.13,67.53,4.99,67.9,6C68.28,7.02,68.46,8.2,68.46,9.53
+		L68.46,9.53z M64.92,9.65c0-0.8-0.09-1.54-0.28-2.23c-0.19-0.68-0.49-1.28-0.9-1.78c-0.41-0.5-0.94-0.9-1.59-1.18
+		c-0.64-0.28-1.49-0.43-2.55-0.43l-1.73,0l0,11.46l1.78,0c0.94,0,1.73-0.12,2.37-0.37c0.64-0.24,1.18-0.61,1.61-1.1
+		c0.43-0.49,0.75-1.1,0.96-1.83C64.81,11.47,64.92,10.62,64.92,9.65L64.92,9.65z M86.43,9.58c0-1.46-0.17-2.72-0.5-3.8
+		c-0.33-1.08-0.83-1.96-1.48-2.67c-0.65-0.7-1.47-1.22-2.45-1.56c-0.98-0.34-2.1-0.51-3.38-0.51c-1.33,0-2.51,0.2-3.52,0.61
+		c-1.01,0.41-1.86,1-2.55,1.76C71.86,4.19,71.35,5.11,71,6.2c-0.35,1.09-0.52,2.32-0.52,3.68c0,1.48,0.17,2.77,0.49,3.85
+		c0.32,1.08,0.81,1.98,1.47,2.68c0.65,0.7,1.46,1.23,2.44,1.57c0.98,0.34,2.12,0.51,3.43,0.51c1.33,0,2.5-0.2,3.51-0.61
+		c1.01-0.4,1.86-0.99,2.54-1.76c0.69-0.77,1.2-1.71,1.55-2.81C86.25,12.22,86.43,10.98,86.43,9.58L86.43,9.58z M82.83,9.76
+		c0,0.8-0.07,1.57-0.22,2.28c-0.14,0.72-0.39,1.34-0.73,1.88c-0.35,0.54-0.8,0.96-1.37,1.28c-0.56,0.31-1.27,0.47-2.11,0.47
+		c-0.84,0-1.54-0.14-2.1-0.41c-0.56-0.27-1-0.67-1.33-1.19c-0.33-0.52-0.56-1.15-0.7-1.88c-0.14-0.73-0.21-1.56-0.21-2.48
+		c0-0.79,0.07-1.54,0.21-2.25c0.15-0.71,0.39-1.32,0.74-1.85c0.35-0.53,0.8-0.95,1.36-1.27c0.56-0.32,1.27-0.48,2.11-0.48
+		c0.84,0,1.53,0.14,2.08,0.43c0.56,0.28,1,0.68,1.33,1.2c0.33,0.52,0.57,1.14,0.71,1.86C82.76,8.07,82.83,8.87,82.83,9.76z"/>
+	<path class="svg-logo__text" d="M129.87,2.74c0,0.26-0.01,0.48-0.03,0.66c-0.02,0.18-0.06,0.32-0.11,0.43c-0.04,0.1-0.1,0.18-0.16,0.23
+		c-0.06,0.05-0.13,0.08-0.21,0.08l-5.51,0l0,4.53l5.17,0c0.08,0,0.15,0.02,0.2,0.07c0.06,0.04,0.12,0.12,0.16,0.22
+		c0.05,0.1,0.08,0.24,0.11,0.42c0.02,0.17,0.03,0.39,0.03,0.65c0,0.26-0.01,0.48-0.03,0.65c-0.02,0.17-0.06,0.32-0.11,0.43
+		c-0.05,0.12-0.1,0.2-0.16,0.24c-0.06,0.05-0.13,0.08-0.2,0.08l-5.17,0l0,6.27c0,0.09-0.03,0.18-0.08,0.24
+		c-0.05,0.07-0.15,0.13-0.28,0.18c-0.13,0.05-0.31,0.08-0.53,0.11c-0.22,0.03-0.49,0.04-0.83,0.04c-0.33,0-0.6-0.01-0.83-0.04
+		c-0.22-0.03-0.4-0.06-0.53-0.11c-0.13-0.05-0.22-0.11-0.28-0.18c-0.06-0.07-0.08-0.15-0.08-0.24l-0.01-15.27
+		c0-0.38,0.1-0.66,0.29-0.83c0.2-0.17,0.44-0.25,0.72-0.25l7.93,0c0.08,0,0.15,0.02,0.21,0.07c0.06,0.05,0.12,0.12,0.16,0.24
+		c0.05,0.11,0.08,0.25,0.11,0.44C129.86,2.26,129.87,2.48,129.87,2.74L129.87,2.74z M136.1,17.71L136.1,1.8
+		c0-0.08-0.03-0.16-0.09-0.23c-0.05-0.07-0.15-0.13-0.28-0.17c-0.13-0.04-0.3-0.08-0.52-0.11c-0.22-0.03-0.49-0.04-0.83-0.04
+		c-0.33,0-0.6,0.01-0.82,0.04c-0.22,0.03-0.39,0.06-0.52,0.11c-0.14,0.04-0.23,0.1-0.29,0.17c-0.06,0.07-0.08,0.15-0.08,0.23
+		l0.01,15.91c0,0.08,0.03,0.16,0.08,0.23c0.06,0.07,0.15,0.13,0.28,0.17c0.13,0.04,0.31,0.08,0.53,0.11
+		c0.22,0.03,0.5,0.04,0.83,0.04c0.34,0,0.61-0.01,0.83-0.04c0.22-0.03,0.39-0.06,0.52-0.11c0.13-0.04,0.23-0.1,0.28-0.17
+		C136.07,17.88,136.1,17.8,136.1,17.71L136.1,17.71z M149.03,16.74c0,0.26-0.01,0.48-0.03,0.66c-0.02,0.18-0.05,0.32-0.1,0.44
+		c-0.04,0.12-0.1,0.2-0.16,0.25c-0.06,0.05-0.14,0.08-0.23,0.08l-7.72,0c-0.29,0-0.53-0.08-0.72-0.25
+		c-0.2-0.17-0.29-0.44-0.29-0.83l-0.01-15.3c0-0.08,0.03-0.16,0.08-0.23c0.06-0.07,0.15-0.13,0.28-0.17
+		c0.13-0.04,0.31-0.08,0.53-0.11c0.22-0.03,0.5-0.04,0.83-0.04c0.34,0,0.61,0.01,0.83,0.04c0.22,0.03,0.39,0.06,0.52,0.11
+		c0.13,0.04,0.23,0.1,0.28,0.17c0.06,0.07,0.09,0.15,0.09,0.23l0,13.55l5.3,0c0.08,0,0.16,0.03,0.23,0.07
+		c0.07,0.05,0.12,0.13,0.16,0.24c0.04,0.11,0.08,0.25,0.1,0.43C149.02,16.26,149.03,16.48,149.03,16.74L149.03,16.74z M164.2,17.7
+		l-0.01-15.91c0-0.08-0.03-0.16-0.08-0.23c-0.06-0.07-0.15-0.13-0.28-0.17c-0.13-0.04-0.3-0.08-0.52-0.11
+		c-0.22-0.03-0.49-0.04-0.82-0.04c-0.34,0-0.62,0.01-0.84,0.04c-0.22,0.03-0.4,0.06-0.52,0.11c-0.12,0.04-0.22,0.1-0.27,0.17
+		c-0.06,0.07-0.08,0.15-0.08,0.23l0,6.19l-6.3,0l0-6.19c0-0.08-0.03-0.16-0.08-0.23c-0.05-0.07-0.14-0.13-0.28-0.17
+		c-0.13-0.04-0.3-0.08-0.52-0.11c-0.22-0.03-0.49-0.04-0.83-0.04c-0.33,0-0.6,0.01-0.83,0.04c-0.22,0.03-0.4,0.06-0.53,0.11
+		c-0.13,0.04-0.22,0.1-0.28,0.17c-0.06,0.07-0.08,0.15-0.08,0.23l0.01,15.91c0,0.08,0.03,0.16,0.08,0.23
+		c0.06,0.07,0.15,0.13,0.28,0.17c0.13,0.04,0.31,0.08,0.53,0.11c0.22,0.03,0.5,0.04,0.83,0.04c0.34,0,0.61-0.01,0.83-0.04
+		s0.39-0.06,0.52-0.11c0.13-0.04,0.22-0.1,0.28-0.17c0.05-0.07,0.08-0.15,0.08-0.23l0-6.81l6.3,0l0,6.81
+		c0,0.08,0.03,0.16,0.08,0.23c0.05,0.07,0.15,0.13,0.27,0.17c0.12,0.04,0.3,0.08,0.52,0.11c0.22,0.03,0.5,0.04,0.84,0.04
+		c0.33,0,0.6-0.01,0.82-0.04c0.22-0.03,0.39-0.06,0.52-0.11c0.13-0.04,0.22-0.1,0.28-0.17C164.17,17.87,164.2,17.79,164.2,17.7
+		L164.2,17.7z M183.02,9.55c0,1.4-0.17,2.64-0.52,3.75c-0.35,1.1-0.86,2.04-1.55,2.81c-0.68,0.76-1.53,1.35-2.54,1.76
+		c-1.01,0.4-2.18,0.6-3.51,0.61c-1.31,0-2.45-0.17-3.43-0.51c-0.98-0.34-1.79-0.87-2.44-1.57c-0.65-0.71-1.14-1.6-1.47-2.68
+		c-0.32-1.08-0.49-2.37-0.49-3.85c0-1.36,0.17-2.59,0.52-3.68c0.35-1.09,0.86-2.01,1.55-2.78c0.68-0.76,1.53-1.35,2.55-1.76
+		c1.01-0.41,2.19-0.61,3.52-0.61c1.28,0,2.4,0.17,3.38,0.51c0.97,0.34,1.79,0.86,2.44,1.56c0.66,0.71,1.15,1.59,1.49,2.67
+		C182.85,6.82,183.02,8.08,183.02,9.55L183.02,9.55z M179.43,9.73c0-0.89-0.07-1.69-0.21-2.42c-0.14-0.72-0.38-1.35-0.71-1.86
+		c-0.33-0.52-0.78-0.92-1.33-1.2c-0.56-0.28-1.25-0.43-2.08-0.43c-0.84,0-1.55,0.16-2.11,0.48c-0.56,0.32-1.02,0.74-1.36,1.27
+		c-0.35,0.53-0.59,1.15-0.74,1.85c-0.14,0.71-0.21,1.46-0.21,2.25c0,0.92,0.07,1.75,0.21,2.48c0.14,0.73,0.37,1.36,0.7,1.88
+		c0.33,0.52,0.77,0.92,1.33,1.19c0.56,0.28,1.25,0.41,2.1,0.41c0.84,0,1.54-0.16,2.11-0.47c0.56-0.31,1.02-0.74,1.37-1.28
+		c0.35-0.54,0.59-1.16,0.73-1.88C179.36,11.3,179.43,10.53,179.43,9.73L179.43,9.73z M195.89,13.11c0-0.68-0.1-1.26-0.31-1.76
+		c-0.21-0.5-0.48-0.93-0.82-1.3c-0.34-0.37-0.72-0.68-1.16-0.95c-0.44-0.26-0.88-0.5-1.33-0.71c-0.45-0.21-0.89-0.41-1.33-0.6
+		c-0.44-0.18-0.82-0.38-1.16-0.6c-0.34-0.21-0.62-0.46-0.82-0.73c-0.2-0.28-0.31-0.6-0.31-0.97c0-0.25,0.05-0.49,0.14-0.72
+		c0.09-0.23,0.23-0.42,0.42-0.58c0.19-0.16,0.42-0.29,0.7-0.38c0.28-0.09,0.6-0.14,0.97-0.14c0.48,0,0.92,0.06,1.32,0.18
+		c0.4,0.12,0.75,0.24,1.05,0.39c0.31,0.14,0.56,0.28,0.77,0.4c0.21,0.12,0.36,0.18,0.46,0.18c0.09,0,0.17-0.03,0.23-0.08
+		c0.06-0.05,0.1-0.13,0.13-0.24c0.03-0.12,0.05-0.26,0.07-0.43c0.01-0.17,0.02-0.39,0.02-0.64c0-0.23,0-0.42-0.01-0.57
+		c-0.01-0.15-0.03-0.28-0.05-0.38c-0.02-0.1-0.04-0.18-0.08-0.24c-0.03-0.06-0.09-0.13-0.18-0.22c-0.08-0.08-0.26-0.2-0.53-0.32
+		c-0.27-0.13-0.58-0.25-0.92-0.35c-0.35-0.11-0.72-0.19-1.12-0.25c-0.4-0.06-0.8-0.09-1.2-0.09c-0.77,0-1.51,0.1-2.2,0.3
+		c-0.69,0.2-1.29,0.5-1.79,0.91c-0.51,0.4-0.92,0.91-1.21,1.52c-0.3,0.61-0.45,1.32-0.45,2.13c0,0.71,0.1,1.31,0.31,1.81
+		c0.21,0.5,0.48,0.94,0.81,1.31c0.34,0.37,0.72,0.68,1.14,0.95c0.42,0.26,0.86,0.5,1.32,0.71c0.45,0.2,0.89,0.4,1.32,0.59
+		c0.42,0.19,0.8,0.39,1.14,0.6c0.33,0.21,0.6,0.45,0.81,0.73c0.21,0.27,0.31,0.6,0.31,0.98c0,0.33-0.06,0.63-0.18,0.9
+		c-0.12,0.27-0.3,0.49-0.52,0.68c-0.23,0.18-0.51,0.32-0.84,0.43c-0.33,0.1-0.7,0.15-1.12,0.15c-0.64,0-1.19-0.07-1.68-0.21
+		c-0.48-0.14-0.89-0.3-1.24-0.48c-0.35-0.17-0.64-0.33-0.85-0.48c-0.22-0.14-0.4-0.21-0.52-0.21c-0.09,0-0.16,0.02-0.23,0.07
+		c-0.07,0.05-0.12,0.13-0.16,0.24c-0.04,0.11-0.07,0.26-0.08,0.44c-0.01,0.18-0.02,0.4-0.02,0.68c0,0.4,0.02,0.71,0.07,0.92
+		c0.04,0.21,0.12,0.37,0.24,0.48c0.11,0.12,0.3,0.24,0.55,0.39c0.26,0.15,0.58,0.29,0.96,0.43c0.38,0.13,0.82,0.25,1.32,0.34
+		c0.5,0.1,1.04,0.14,1.62,0.14c0.86,0,1.67-0.11,2.42-0.34c0.76-0.23,1.41-0.56,1.98-1.01c0.56-0.44,1.01-1,1.34-1.67
+		C195.72,14.77,195.89,13.99,195.89,13.11z"/>
+</svg>
+
+      <button 
+  aria-expanded="false" 
+  class="lg:hidden menu-btn w-40px h-40px flex flex-col justify-around items-stretch" 
+  aria-label="menu"
+  data-toggle-menu
+>
+  <div class="h-0 border-2 border-red"></div>
+  <div class="h-0 border-2 border-red"></div>
+  <div class="h-0 border-2 border-red"></div>
+</button>
+
+    </li>
+    <li class="navbar-link"><a href="#about-us" data-section-link>About Us</a></li>
+
+    <li class="navbar-link"><a href="#services" data-section-link>Services</a></li>
+
+    <li class="navbar-link"><a href="#portfolio" data-section-link>Portfolio</a></li>
+
+    <li class="navbar-link"><a href="#contacts" data-section-link>Contacts</a></li>
+
+    <li class="lg:ml-1 ml-col-gap-half relative" id="language-selector">
+      <button
+        type="button"
+        id="language-selector-button"
+        class="transform relative block pb-full w-40px border-2 border-red transform rotate-45"
+      >
+        <div
+          class="transform -rotate-45 absolute language-selector__text h-0 inset-0 text-center flex justify-center items-center h-full"
+        >
+          en
+        </div>
+      </button>
+      <ul class="language-selector__options">
+        
+          <li class="language-selector__link">
+            <a href="/">pt</a>
+          </li>
+        
+          <li class="language-selector__link">
+            <a href="/fr">fr</a>
+          </li>
+          
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+    </header>
+    <section id="banner">
+      <div class="h-screen relative text-white">
+  <img
+    src="https://www.dropbox.com/s/kqe1tp1oipsftsv/imagem-header.jpeg?raw=1"
+    alt=""
+    class="absolute top-0 left-0 w-full h-full object-cover"
+  />
+  <div class="absolute inset-0 bg-black opacity-50"></div>
+  <div class="absolute left-0 bottom-0 right-0 py-1">
+    <div class="max-w-screen-xl mx-auto px-col-gap-half">
+      <p class="text-lg md:text-xl font-bold">
+        40 Years of experience
+      </p>
+      <p class="w-full max-w-2/3 md:max-w-7/12 text-md md:text-lg font-normal">
+        We work with quality material to ensure top-quality products
+      </p>
+    </div>
+  </div>
+</div>
+
+    </section>
+    <main>
+      <section id="about-us" class="pt-2 pb-1">
+        <div class="max-w-screen-xl mx-auto text-center px-col-gap-half">
+          <h2 class="text-xl text-red mb-1">About Us</h2>
+          <p class="max-w-5/6 mx-auto font-normal">
+            Caiado&amp;Filhos,Lda, based in Olhão's industrial zone, 
+has a highly-qualified team, and has more than
+40 years of experience in making frames out of glass and aluminium.
+We only work with the certified materiais, to make sure 
+our producst are top-notch.
+
+          </p>
+        </div>
+      </section>
+      <section id="services" class="text-center bg-light-gray pt-1 pb-1">
+        <h2 class="text-xl text-red mb-1">Services</h2>
+        <ul class="md:max-w-2/3 px-col-gap-half grid gap-col-gap mx-auto text-center grid-cols-2 md:grid-cols-4">    
+  
+    <li class="relative pb-3/2 h-0">
+      <img
+        src="https://www.dropbox.com/s/shgj34xb6pm30nf/icon-fundo_servico.png?raw=1"
+        alt=""
+        class="absolute py-1/4 inset-0 w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 flex items-center">
+        <div class="w-full text-center font-bold uppercase leading-none">
+          Aluminium <br>Doors
+        </div>
+      </div>
+      
+    </li>
+  
+    <li class="relative pb-3/2 h-0">
+      <img
+        src="https://www.dropbox.com/s/shgj34xb6pm30nf/icon-fundo_servico.png?raw=1"
+        alt=""
+        class="absolute py-1/4 inset-0 w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 flex items-center">
+        <div class="w-full text-center font-bold uppercase leading-none">
+          PVC <br>Doors
+        </div>
+      </div>
+      
+    </li>
+  
+    <li class="relative pb-3/2 h-0">
+      <img
+        src="https://www.dropbox.com/s/shgj34xb6pm30nf/icon-fundo_servico.png?raw=1"
+        alt=""
+        class="absolute py-1/4 inset-0 w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 flex items-center">
+        <div class="w-full text-center font-bold uppercase leading-none">
+          Aluminium <br>Windows
+        </div>
+      </div>
+      
+    </li>
+  
+    <li class="relative pb-3/2 h-0">
+      <img
+        src="https://www.dropbox.com/s/shgj34xb6pm30nf/icon-fundo_servico.png?raw=1"
+        alt=""
+        class="absolute py-1/4 inset-0 w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 flex items-center">
+        <div class="w-full text-center font-bold uppercase leading-none">
+          PVC <br>Windows
+        </div>
+      </div>
+      
+    </li>
+  
+    <li class="relative pb-3/2 h-0">
+      <img
+        src="https://www.dropbox.com/s/shgj34xb6pm30nf/icon-fundo_servico.png?raw=1"
+        alt=""
+        class="absolute py-1/4 inset-0 w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 flex items-center">
+        <div class="w-full text-center font-bold uppercase leading-none">
+          Blinds
+        </div>
+      </div>
+      
+    </li>
+  
+    <li class="relative pb-3/2 h-0">
+      <img
+        src="https://www.dropbox.com/s/shgj34xb6pm30nf/icon-fundo_servico.png?raw=1"
+        alt=""
+        class="absolute py-1/4 inset-0 w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 flex items-center">
+        <div class="w-full text-center font-bold uppercase leading-none">
+          Marquee <br>Covers
+        </div>
+      </div>
+      
+    </li>
+  
+    <li class="relative pb-3/2 h-0">
+      <img
+        src="https://www.dropbox.com/s/shgj34xb6pm30nf/icon-fundo_servico.png?raw=1"
+        alt=""
+        class="absolute py-1/4 inset-0 w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 flex items-center">
+        <div class="w-full text-center font-bold uppercase leading-none">
+          Bath <br>Screens
+        </div>
+      </div>
+      
+    </li>
+  
+    <li class="relative pb-3/2 h-0">
+      <img
+        src="https://www.dropbox.com/s/shgj34xb6pm30nf/icon-fundo_servico.png?raw=1"
+        alt=""
+        class="absolute py-1/4 inset-0 w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 flex items-center">
+        <div class="w-full text-center font-bold uppercase leading-none">
+          Fences
+        </div>
+      </div>
+      
+    </li>
+  
+</ul>
+
+      </section>
+      <section
+        id="portfolio"
+        class="text-center bg-dark-gray text-white pt-1 pb-1"
+      >
+        <div class="max-w-screen-xl mx-auto px-col-gap-half">
+          <h2 class="text-xl mb-1">Portfolio</h2>
+<ul id="portfolio-category-selector" class="mb-1 flex flex-col lg:flex-row justify-between items-center">
+  <li class="portfolio-filter is-active">
+    <button data-portfolio-toggle="all"></button>
+  </li>
+  
+    <li class="portfolio-filter">
+      <button 
+        data-portfolio-toggle="all"
+        
+      >
+        Todos
+      </button>
+      
+    </li>
+  
+    <li class="portfolio-filter">
+      <button 
+        data-portfolio-toggle="aluminium"
+        
+      >
+        Alumínio
+      </button>
+      
+    </li>
+  
+    <li class="portfolio-filter">
+      <button 
+        data-portfolio-toggle="pvc"
+        
+      >
+        PVC
+      </button>
+      
+    </li>
+  
+    <li class="portfolio-filter">
+      <button 
+        data-portfolio-toggle="glass"
+        
+      >
+        Vidro
+      </button>
+      
+    </li>
+  
+    <li class="portfolio-filter">
+      <button 
+        data-portfolio-toggle="blinds"
+        
+      >
+        Estores
+      </button>
+      
+    </li>
+  
+    <li class="portfolio-filter">
+      <button 
+        data-portfolio-toggle="marquee"
+        
+      >
+        Marquises
+      </button>
+      
+    </li>
+  
+    <li class="portfolio-filter">
+      <button 
+        data-portfolio-toggle="screen"
+        
+      >
+        Bath Screens
+      </button>
+      
+    </li>
+  
+    <li class="portfolio-filter">
+      <button 
+        data-portfolio-toggle="fence"
+        
+      >
+        Vedações
+      </button>
+      
+    </li>
+  
+</ul>
+<ul id="portfolios" class="grid grid-cols-3 grid-rows-2 gap-px">    
+  
+</ul>
+
+        </div>
+        <div class="lg:max-w-half mx-auto px-col-gap-half text-center"></div>
+        <button class="mt-1" type="button" data-page="2"></button>
+      </section>
+    </main>
+    <section id="contacts" class="py-2 border-b-2 border-red px-col-gap-half">
+      <h2 class="text-xl text-red text-center mb-1">Contacts</h2>
+      
+<div class="max-w-screen-xl px-col-gap-half mx-auto">
+  <p class="mb-1 text-center lg:max-w-half mx-auto px-col-gap font-normal">
+    We figure out the best solution for you, based on your preferences and tastes.
+Contact us.
+
+  </p>
+  <div class="flex flex-column lg:flex-row">
+    <form
+      action=""
+      class="p-1 bg-white text-sm flex flex-col w-full lg:w-half"
+      id="contact-form"
+    >
+      <label class="block text-black" for="contact-form-name">
+        Name
+      </label>
+      <input
+        class="appearance-none mb-1 border-b-2 border-gray"
+        id="contact-form-name"
+        type="text"
+      />
+      <label class="text-black" for="contact-form-email">
+        Email
+      </label>
+      <input
+        class="appearance-none mb-1 block border-b-2 border-gray"
+        id="contact-form-email"
+        type="email"
+      />
+      <label class="" for="contact-form-message">
+        Message
+      </label>
+      <input
+        class="appearance-none mb-1 border-b-2 border-gray"
+        id="contact-form-message"
+        type="text"
+      />
+      <button class="text-bold border-red border-b-2 self-end mb-2">
+        Send
+      </button>
+      <ul>
+        <li>
+          <address class="mb-1">
+            Zona Industrial, <br />
+            Lotes 182-184 - 8700-281, Olhão
+          </address>
+        </li>
+        <li>
+          <a href="tel:+351289703352">
+            <abbr class="text-red" title="telefone">
+              Tel.
+            </abbr>
+            +351 289 703 352
+          </a>
+        </li>
+        <li>
+          <a href="tel:+351289703352">
+            <abbr class="text-red" value="telephone">
+              Tel.
+            </abbr>
+            +351 289 703 352
+          </a>
+        </li>
+        <li>
+          <a href="tel:+351289703352">
+            <abbr class="text-red" value="telephone">
+              Tel.
+            </abbr>
+            +351 289 703 352
+          </a>
+        </li>
+      </ul>
+    </form>
+    <div id="map" class="lg:w-40px"></div>
+  </div>
+</div>
+
+    </section>
+    <footer class="bg-dark-gray">
+      <div
+  class="mx-auto max-w-screen-xl px-col-gap-half py-1 flex justify-between items-center"
+>
+  <a href="/en.html">
+    <img
+      src="https://www.dropbox.com/s/4vky07jygx69gyv/logo-footer.png?raw=1"
+      class="max-w-logo-size-footer w-full mr-1"
+      alt="Logo"
+    />
+  </a>
+  <p class="text-sm text-white">
+    Copyright Caiado & Filhos Alumínios, Lda.,
+    <date dateformat="YYYY" data-current-year></date>. All Rights Reserved.
+  </p>
+</div>
+
+    </footer>
+    <script src="/website-with-tailwind//index.js"></script>
+  </body>
+</html>
